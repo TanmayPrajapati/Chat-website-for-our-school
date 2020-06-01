@@ -1,0 +1,53 @@
+body{
+background-color: white;
+background-image:linear-gradient(white, black);
+height: 99vh;
+}
+.container{
+display:block;
+height: 60vh;
+width: 70%;
+margin: auto;
+border: 2px solid black;
+overflow:auto;
+padding:30px;
+background-color: grey;
+}
+
+
+#logo{
+display:block;
+margin:auto;
+height:60px;
+}
+
+.left{
+float:left;
+clear:both;
+}
+.right{
+float:right;
+clear: both;
+}
+.message{
+background-color: #5a725a;
+margin:10px;
+padding:10px 13px;
+border: 3px solid black;
+border-radius: 6px;
+}
+form{
+display:block;
+margin:auto;
+margin-top:8px;
+text-align: center;
+max-width: 5454px;
+}
+form input{
+width:500px;
+}
+form button{
+cursor:pointer;
+height: 32px;
+
+}
