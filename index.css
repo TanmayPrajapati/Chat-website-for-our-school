@@ -2,8 +2,9 @@ body{
 background-color: white;
 background-image:linear-gradient(white, black);
 height: 99vh;
+
 }
-.container{
+#container{
 display:block;
 height: 60vh;
 width: 70%;
@@ -51,3 +52,15 @@ cursor:pointer;
 height: 32px;
 
 }
+@media(max-width:500px){
+	#container{
+	width:90%;
+	height:72vh;
+	}
+	
+	form input{
+	width:70%;
+	}
+
+}
+

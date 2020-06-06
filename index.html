@@ -12,33 +12,26 @@
 <meta name="keywords" content="keywords, keywords tuts">
 
 <!-- link tag to include css file -->
-<link rel="stylesheet" href="./index.css">
-<script src="./client.js">	</script>
-<title>My Chat</title>
+<link rel="stylesheet" href="index.css">
+
+<title>Chat</title>
 </head>
 <body>
 <nav>
 <img src="./index.jpeg" id="logo">
 <nav>
 
-<div class = "container">
-<div class = "message right">Hey bitch</div>
-<div class = "message left">Hey bitch</div>
-<div class = "message left">Hey bitch</div>
-<div class = "message left">Hey bitch</div>
-<div class = "message left">Hey bitch</div>
-<div class = "message left">Hey bitch</div>
-<div class = "message left">Hey bitch</div>
-<div class = "message left">Hey bitch</div>
-<div class = "message left">Hey bitch</div>
-<div class = "message left">Hey bitch</div>
+<div id = "container">
+<div class = "message left">Welcome to the Website created by Tanmay Prajapati</div>
 
 </div>
 
-<form action = "#">
-<input name="message" />
-<button type="submit" name="name" >send</button>
+<form id = "form" action = "#">
+<input name="message" id = "message"/>
+<button type="submit" >send</button>
 
 </form>
-
-<body>
+<script src="http://localhost:543/socket.io/socket.io.js"></script>
+<script src = "./client.js"></script>
+</body>
+</html>
